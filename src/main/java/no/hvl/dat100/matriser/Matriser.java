@@ -80,21 +80,21 @@ public class Matriser {
 	}
 
 	// f)
-	public static int[][] multipliser(int[][] a, int[][] b) {
+//	public static int[][] multipliser(int[][] a, int[][] b) {
 
 		// Denne funker ikke.
-		int[][] tmpMatrx = new int[a.length][b[0].length];
-		int i = 0;
-		int j = 0;
-		
-		if(b.length == b.length) {
-			for(;i<a.length; i++) {
-				for(;j<a[i].length; j++) {
-					tmpMatrx[i][j] = a[i][j]*b[i][j];
-				}
-			}
-		}
-		return tmpMatrx;
-	
+//		int[][] tmpMatrx = new int[a.length][b[0].length];
+//		int i = 0;
+//		int j = 0;
+//		
+//		if(b.length == b.length) {
+//			for(;i<a.length; i++) {
+//				for(;j<a[i].length; j++) {
+//					tmpMatrx[i][j] = a[i][j]*b[i][j];
+//				}
+//			}
+//		}
+//		return tmpMatrx;
+//	
 	}
-}
+
